@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <filter-data name="geoclub.de enhancement" description="Macht das Forum geoclub.de etwas «hübscher»." format-version="3" gb-version="1.4.7">
-    <rule rule-id="484217768" priority="2" host="www.geoclub.de" host-type="is" type="modify" whitelist="1">
-        <css><![CDATA[/* Seite verbreitern */
-#wrap {
+    <rule rule-id="846444057" priority="2" host="www.geoclub.de" host-type="is" type="modify" whitelist="1">
+        <comments><![CDATA[Seite verbreitern]]></comments>
+        <css><![CDATA[#wrap {
 	width: 98% !important;
 	min-width: 1000px !important;
-}
-
-/* Header enternen */
-#wrapheader {
+}]]></css>
+    </rule>
+    <rule rule-id="390362125" priority="2" host="www.geoclub.de" host-type="is" type="modify" whitelist="1">
+        <comments><![CDATA[Header entfernen]]></comments>
+        <css><![CDATA[#wrapheader {
 	display: none;
 }]]></css>
     </rule>
