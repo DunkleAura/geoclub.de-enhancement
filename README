@@ -2,7 +2,33 @@ geoclub.de enhancement
 ======================
 Macht das Forum geoclub.de etwas «hübscher».
 
+Verwendung
+==========
+GlimmerBlocker
+--------------
+Auf dem Mac einfach die Systemeinstellungen öffnen, GlimmerBlocker anklicken.
+Dann das kleine Zahnrädchen anklicken und «Subscribe to filter…» anklicken.
+«Filter URL:» eintragen:
+«http://github.com/DunkleAura/geoclub.de-enhancement/raw/master/geoclub.de-enhancement.xml»
+(natürlich ohne die Anführungs- und Schlusszeichen) und auf «Subscribe» klicken.
+
+Stylish
+-------
+Gehe auf diese URL: http://userstyles.org/styles/37647 und
+klicke auf «Install with Stylish»
+
+Greasemonkey
+------------
+Gehe auf diese URL: http://userstyles.org/styles/37647 und
+klicke auf «install as a user script»
+
 Lizenz
 ======
 Creative Commons Namensnennung-Weitergabe unter gleichen Bedingungen 3.0 Unported License
 http://creativecommons.org/licenses/by-sa/3.0/deed.de
+
+Links
+=====
+GlimmerBlocker: http://glimmerblocker.org/
+Stylish: https://addons.mozilla.org/de/firefox/addon/2108/
+Greasemonkey: https://addons.mozilla.org/de/firefox/addon/748/
