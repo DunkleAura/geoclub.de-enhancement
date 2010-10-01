@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<filter-data name="geoclub.de enhancement" description="Macht das Forum geoclub.de etwas «hübscher»." format-version="3" gb-version="1.4.7">
+    <rule rule-id="484217768" priority="2" host="www.geoclub.de" host-type="is" type="modify" whitelist="1">
+        <css><![CDATA[/* Seite verbreitern */
+#wrap {
+	width: 98% !important;
+	min-width: 1000px !important;
+}
+
+/* Header enternen */
+#wrapheader {
+	display: none;
+}]]></css>
+    </rule>
+    <description><![CDATA[Macht das Forum geoclub.de etwas «hübscher».]]></description>
+</filter-data>
